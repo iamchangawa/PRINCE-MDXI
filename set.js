@@ -20,8 +20,8 @@ AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "✅️ Status Viewed by prince-mdx", // // Input Yours custom...
 MODE: process.env.MODE || "public", // Put private or public or inbox or groups
 OWNER_NUMBER: process.env.OWNER_NUMBER || "237677224245", // Only 1 owner Number Here, others Add to sudo numbers...
-OWNER_NAME: process.env.OWNER_NAME || "𝐏𝐑𝐈𝐍𝐂𝐄", // Input Yours custom...(Maintain font for Flow)
-PACK_AUTHOR: process.env.PACK_AUTHOR || "𝐏𝐑𝐈𝐍𝐂𝐄 𝐓𝐄𝐂𝐇", // Added // Input Yours custom...
+OWNER_NAME: process.env.OWNER_NAME || "CHANGAWA", // Input Yours custom...(Maintain font for Flow)
+PACK_AUTHOR: process.env.PACK_AUTHOR || "SADNESS", // Added // Input Yours custom...
 PACK_NAME: process.env.PACK_NAME || "💙", // Added // Input Yours custom...
 PREFIX: process.env.PREFIX || ".",
 VERSION: process.env.VERSION || "3.0.0",
@@ -31,7 +31,7 @@ ANTIBAD: process.env.ANTIBAD || "false",
 BAD_WORDS: process.env.BAD_WORDS || "fuck, pussy, anus, idiot", // Add Yours Separated by Comma(will be deleted if ANTIBAD is set to true)
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 📵 No Calls Allowed!_*",
 AUTO_REACT: process.env.AUTO_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗", //  don't change 
+BOT_NAME: process.env.BOT_NAME || "SADNESS", //  don't change 
 BOT_PIC: process.env.BOT_PIC || "https://raw.githubusercontent.com/Mayelprince/url/main/menun.jpg", //  don't change 
 AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
