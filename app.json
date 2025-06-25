@@ -31,7 +31,7 @@
     },
     "ANTI_DELETE": {
       "description": "Can be set to 'inboxonly' to recover for personal chats only, 'chatsonly' to recover for groups and personal chats only or 'true' to recover all chats and status updates. Default is 'false'. You can set up this later using .antidelete",
-      "required": false,
+      "required": true,
       "value": "inboxonly"
     },
     "SUDO_NUMBERS": {
@@ -41,8 +41,8 @@
     },
     "CHAT_BOT": {
       "description": "Put value to 'true' to enablle for all chats or 'inbox' to ebanle in pm(inbox) chats only or 'groups' to enable in groups only else false. You can set up this later using .chatbot",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "true"
     },
     "AUTO_READ_STATUS": {
       "description": "Make it 'true' if you want bot to view statuses. You can set up this later using .autoview",
@@ -51,7 +51,7 @@
     },
     "AUTO_LIKE_STATUS": {
       "description": "Make it 'true' if you want bot to read and like statuses. You can set up this later using .autolike",
-      "required": false,
+      "required": true,
       "value": "true"
     },
     "AUTO_LIKE_EMOJIS": {
@@ -123,8 +123,8 @@
     },
     "BOT_NAME": {
       "description": "You can edit this but maintain font style for uniformity. Use 'Fonts Type Keyboard' for styles.",
-      "required": false,
-      "value": "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗"
+      "required": true,
+      "value": "CHANGAWA"
     },
     
     "PACK_NAME": {
